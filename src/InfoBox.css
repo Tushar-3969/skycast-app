@@ -1,0 +1,79 @@
+.InfoBox {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 2rem;
+}
+
+.cardContainer .MuiCard-root {
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(42, 45, 66, 0.1);
+  backdrop-filter: blur(8px);
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.InfoBox h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.MuiCardMedia-root {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.MuiTypography-h5 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.8rem !important;
+  font-weight: 600 !important;
+  color: var(--text) !important;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(58, 134, 255, 0.2);
+}
+
+.MuiTypography-h5 i {
+  font-size: 1.5rem;
+  color: var(--accent);
+}
+
+.MuiTypography-body2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.MuiTypography-body2 p {
+  margin: 0;
+  padding: 1.2rem;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  font-size: 1rem;
+  color: var(--text);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  transition: all 0.3s;
+}
+
+.MuiTypography-body2 p:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(131, 56, 236, 0.1);
+}
+
+.MuiTypography-body2 p i {
+  margin-right: 0.5rem;
+  color: var(--accent);
+}
+
+@media (max-width: 768px) {
+  .MuiTypography-body2 {
+    grid-template-columns: 1fr;
+  }
+}

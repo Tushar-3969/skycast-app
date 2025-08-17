@@ -1,0 +1,45 @@
+.SearchBox {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.SearchBox form {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.MuiTextField-root {
+  flex: 1;
+}
+
+.MuiTextField-root .MuiOutlinedInput-root {
+  border-radius: 50px;
+  background-color: white;
+}
+
+.MuiTextField-root .MuiOutlinedInput-input {
+  padding: 0.8rem 1.2rem;
+}
+
+.MuiButton-contained {
+  padding: 0 2rem !important;
+  border-radius: 50px !important;
+  background: linear-gradient(to right, var(--accent), #5e2ced) !important;
+  text-transform: none !important;
+  font-weight: 500 !important;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) !important;
+  transition: all 0.3s !important;
+}
+
+.MuiButton-contained:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(131, 56, 236, 0.3) !important;
+}
+
+.SearchBox p {
+  color: var(--danger) !important;
+  margin-top: 0.5rem;
+  text-align: center;
+  font-weight: 500;
+}
