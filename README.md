@@ -19,3 +19,5 @@ It allows users to search for any city and see the live weather information disp
    ```bash
    git clone https://github.com/Tushar-3969/skycast-react-app.git
    cd skycast-react-app
+
+##🌐 Live Demo 🔗 - https://tushar-3969.github.io/skycast-app/
